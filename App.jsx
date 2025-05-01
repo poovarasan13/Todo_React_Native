@@ -120,11 +120,11 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 100,
     alignItems: 'center',
-    backgroundColor: '#f9f9f9',
+    backgroundColor: 'black',
   },
   text: {
     fontSize: 30,
-    color: 'red',
+    color: 'white',
   },
   taskInputContainer: {
     width: '90%',
