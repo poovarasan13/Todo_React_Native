@@ -10,8 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "nativewind": "^4.1.23",
     "react": "19.0.0",
-    "react-native": "0.79.1"
+    "react-native": "0.79.1",
+    "react-native-css-transformer": "^2.0.0",
+    "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "^5.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -25,13 +29,14 @@
     "@react-native/metro-config": "0.79.1",
     "@react-native/typescript-config": "0.79.1",
     "@types/jest": "^29.5.13",
-    "@types/react": "^19.0.0",
     "@types/react-test-renderer": "^19.0.0",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
+    "postcss": "^8.5.3",
     "prettier": "2.8.8",
     "react-test-renderer": "19.0.0",
-    "typescript": "5.0.4"
+    "tailwindcss": "^3.4.17"
   },
   "engines": {
     "node": ">=18"
